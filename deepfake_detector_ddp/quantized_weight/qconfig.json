@@ -1,0 +1,58 @@
+{
+    "encoder.fc": {
+        "dtype": "int",
+        "bits": 4,
+        "group_size": 32,
+        "scheme": "sym",
+        "module_type": "torch.nn.modules.linear.Linear"
+    },
+    "fc": {
+        "dtype": "int",
+        "bits": 4,
+        "group_size": 32,
+        "scheme": "sym",
+        "module_type": "torch.nn.modules.linear.Linear"
+    },
+    "reasoning.vb_embedding.0": {
+        "dtype": "int",
+        "bits": 4,
+        "group_size": 32,
+        "scheme": "sym",
+        "module_type": "torch.nn.modules.linear.Linear"
+    },
+    "reasoning.vb_embedding.2": {
+        "dtype": "int",
+        "bits": 4,
+        "group_size": 32,
+        "scheme": "sym",
+        "module_type": "torch.nn.modules.linear.Linear"
+    },
+    "reasoning.vc_embedding.0": {
+        "dtype": "int",
+        "bits": 4,
+        "group_size": 32,
+        "scheme": "sym",
+        "module_type": "torch.nn.modules.linear.Linear"
+    },
+    "reasoning.vc_embedding.2": {
+        "dtype": "int",
+        "bits": 4,
+        "group_size": 32,
+        "scheme": "sym",
+        "module_type": "torch.nn.modules.linear.Linear"
+    },
+    "reasoning.reweight_ab.0": {
+        "dtype": "int",
+        "bits": 4,
+        "group_size": 32,
+        "scheme": "sym",
+        "module_type": "torch.nn.modules.linear.Linear"
+    },
+    "reasoning.reweight_ac.0": {
+        "dtype": "int",
+        "bits": 4,
+        "group_size": 32,
+        "scheme": "sym",
+        "module_type": "torch.nn.modules.linear.Linear"
+    }
+}
